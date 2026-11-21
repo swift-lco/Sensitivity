@@ -81,7 +81,7 @@ public extension Sensitivity {
             case .unknown(let handle):
                 return "\(handle.token) is stale or untraceable: the vault no longer holds its value (expired, released, or recorded on another machine). Read the value again from its source."
             case .notPermitted(let handle, let tool):
-                return "\(tool) may not use \(handle.token); ask the owner to grant it (privacy_grant) or use a tool of the domain it came from."
+                return "\(tool) may not use \(handle.token); ask the owner to grant it, or use a tool of the domain it came from."
             }
         }
     }
