@@ -58,7 +58,7 @@
     {
       "identity" : "tokens",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/leviouwendijk/Tokens.git",
+      "location" : "https://github.com/swift-langs/Tokens.git",
       "state" : {
         "branch" : "master",
         "revision" : "f14620970eb1b4d77ea4811c053a65cbd1b6f972"
