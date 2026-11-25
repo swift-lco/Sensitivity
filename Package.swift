@@ -16,8 +16,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/leviouwendijk/Primitives.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Matching.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Primitives.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Matching.git", branch: "master"),
         .package(url: "https://github.com/swift-langs/Tokens.git", branch: "master"),
     ],
     targets: [
